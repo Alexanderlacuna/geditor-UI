@@ -173,6 +173,11 @@ img {
   width:100%;
 }
 
+
+#output a {
+  color:red;
+  text-decoration: underline;
+}
 </style>
     
     <meta http-equiv="content-language" content="en">
@@ -350,7 +355,7 @@ img {
 </div>
 
         </div>
-      </div><div id="preview" class="column" style="height: 100vh;overflow-y: scroll;">
+      </div><div id="preview" class="column" style="height:100vh;overflow-y: scroll;">
           <div id="preview-wrapper">
             <div id="output" class="content markdown-body">
 
@@ -365,8 +370,7 @@ img {
     <script src="//ajaxorg.github.io/ace-builds/src-min-noconflict/ace.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-// <script src="https://cdn.jsdelivr.net/npm/marked-highlight/lib/index.umd.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/marked-highlight/lib/index.umd.js"></script>
     <script>
 
 
@@ -569,8 +573,9 @@ $('#settingBtn').click(function () {
 
 });
 
-
 updatePreview()
+
+
 //output configuration 
 //style the output
 
