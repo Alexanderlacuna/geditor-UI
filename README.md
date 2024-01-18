@@ -26,8 +26,7 @@ Geditor-ui enables users to live preview markdown and make edits to the file
 
 1. [Ace Editor](https://ace.c9.io/)
 
-
-3. [marked min js](https://marked.js.org/)
+2. [marked min js](https://marked.js.org/)
 
 
 
@@ -37,4 +36,4 @@ Geditor-ui enables users to live preview markdown and make edits to the file
 
 ## License 
 
-see License File
+[See License File](./LICENSE)
